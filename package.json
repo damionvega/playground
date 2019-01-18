@@ -1,0 +1,22 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js",
+    "watch": "nodemon -w ./ --exec jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
